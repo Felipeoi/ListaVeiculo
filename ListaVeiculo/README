@@ -1,0 +1,37 @@
+Trabalho Avaliativo de Programação Orientada a Objetos (POO)
+
+Sistema de Gerenciamento de Veículos
+
+Objetivo:
+Criar um sistema simples utilizando conceitos de Programação Orientada a Objetos. O sistema deve conter classes que representem veículos, permitindo gerenciar informações básicas como modelo, ano, tipo e ações realizadas.
+
+Requisitos do Sistema:
+
+1. Classe Base: Veiculo
+
+Atributos (privados):
+- modelo (String)
+- ano (int)
+- tipo (String) — ex: carro, moto, etc.
+
+Métodos:
+- Construtor para inicializar todos os atributos
+- Getters e setters para todos os atributos
+- Método ligar() — imprime uma mensagem genérica, como “O veículo está ligando.”
+
+2. Classes Derivadas (Herança):
+- Carro e Moto devem herdar de Veiculo
+- Cada uma deve sobrescrever o método ligar() com uma mensagem específica (ex: “O carro está ligando.”, “A moto está ligando.”)
+
+3. Classe Principal (Main ou Programa):
+- Criar pelo menos 1 objeto de cada classe (Veiculo, Carro, Moto)
+- Demonstrar o uso do construtor, métodos getters e setters
+- Chamar o método ligar() para cada objeto
+- Mostrar os dados dos objetos usando os getters
+
+Diferencial (Opcional para Nota Extra):
+- Criar um método exibirInformacoes() que mostre todos os dados do veículo formatados
+- Criar uma lista de veículos (ArrayList, por exemplo) e percorrer com um loop chamando os métodos
+
+
+OBS: DEIXEI CRIADO OS METODOS DESLIGAR E ACELERAR (VAI QUE FUTURAMENTE SE USE KKKKKKKK)
